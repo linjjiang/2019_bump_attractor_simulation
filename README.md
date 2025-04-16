@@ -5,11 +5,11 @@ A simulation of visual eccentricity effects on working memory precision using co
 
 ## Description
 
-Human visual system is retinotopically organized with a cortical magnification: The central visual field is represented with more neurons with a smaller receptive field as compared to peripheral visual field. Such magnified foveal representation significantly impacts our visual processing: for example, our visual acuity decreases with icmreasing visual eccentricity (distance to the central fixation) of the visual stimuli.
+The human visual system is retinotopically organized and exhibits cortical magnification: the central visual field is represented by a greater number of neurons with smaller receptive fields compared to the peripheral visual field. This foveal magnification plays a critical role in visual processing—most notably, visual acuity declines as stimulus eccentricity (distance from the center of gaze) increases.
 
-However, less is known to what extent such cortical magnification constrains memory processing beyond low-level visual perception.
+While the role of cortical magnification in low-level visual perception is well established, its constraints on memory processing remain less understood.
 
-To address this, this project used bump attractor model to simulate the eccentricity effects on spatial working memory precision, using a continuos bump attractor model (Wimmer et al., 2014). Here, we simulated the effects of eccentricity by varying the size of the bump attractor network based on the previously measured cortical magnification factor from human observers (Duncan & Boynton, 2003). Our simulation matches the human eye-tracking data under the same experimental parameters.
+This project explores how cortical magnification may constrain spatial working memory precision. We employ a continuous bump attractor model (Wimmer et al., 2014) to simulate the effects of stimulus eccentricity on memory performance. The model incorporates variations in network size based on empirical estimates of the human cortical magnification factor (Duncan & Boynton, 2003). Simulation results closely align with human eye-tracking data collected under matching experimental conditions.
 
 This simulation was reported in the following paper:
 Jiang, L., & Leung, H. C. (2021). Errors in visuospatial working memory across space and time. Scientific Reports, 11(1). https://doi.org/10.1038/s41598-021-93858-6
@@ -51,5 +51,5 @@ This project is licensed under the MIT License - see the LICENSE.md file for det
 ## Acknowledgments
 
 This simulation is based on the code provided by the following paper:
-Wimmer K, Nykamp DQ, Constantinidis C, Compte A. Bump attractor dynamics in prefrontal cortex explains behavioral precision in spatial working memory. Nat Neurosci. 2014 Mar;17(3):431-9. doi: 10.1038/nn.3645. Epub 2014 Feb 2. PMID: 24487232
+* Wimmer K, Nykamp DQ, Constantinidis C, Compte A. Bump attractor dynamics in prefrontal cortex explains behavioral precision in spatial working memory. Nat Neurosci. 2014 Mar;17(3):431-9. doi: 10.1038/nn.3645. Epub 2014 Feb 2. PMID: 24487232
 
